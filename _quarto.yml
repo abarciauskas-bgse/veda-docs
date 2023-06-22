@@ -4,8 +4,8 @@ project:
 website:
   page-navigation: true
   title: "VEDA Documentation"
-  site-url: "https://nasa-impact.github.io/veda-docs"
-  repo-url: https://github.com/nasa-impact/veda-docs
+  site-url: "https://abarciauskas-bgse.github.io/veda-docs"
+  repo-url: https://github.com/abarciauskas-bgse/veda-docs
   repo-actions: [edit, issue]
 
   page-footer:

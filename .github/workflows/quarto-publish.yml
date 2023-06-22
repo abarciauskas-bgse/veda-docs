@@ -1,6 +1,4 @@
-on:
-  push:
-    branches: main
+on: workflow_dispatch
 
 name: Render and Publish
 
@@ -22,7 +20,6 @@ jobs:
 
       - run: pip install jupyter
       - run: pip install -r requirements.txt
-      - run: quarto render --to html
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
